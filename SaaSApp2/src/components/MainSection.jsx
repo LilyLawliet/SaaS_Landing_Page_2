@@ -5,7 +5,7 @@ export default function MainSection() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-white relative overflow-hidden"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24 sm:pt-37 bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-white relative overflow-hidden"
     >
       {/* Gradient spotlight background */}
       <div className="absolute inset-0 -z-10">
