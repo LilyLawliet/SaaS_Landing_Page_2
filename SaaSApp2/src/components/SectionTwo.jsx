@@ -131,7 +131,9 @@ export default function SectionTwo() {
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex-1 relative w-full h-[28rem] bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-6"
+          className="relative w-full h-[24rem] sm:h-[28rem] bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-6 overflow-hidden md:flex-1 md:max-w-[36rem] lg:max-w-[40rem]"
+
+
         >
           <h3 className="text-lg font-semibold mb-4 text-gray-700 dark:text-gray-300">
             Weekly Payment Performance

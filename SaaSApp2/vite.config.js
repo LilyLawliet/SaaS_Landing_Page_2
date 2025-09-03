@@ -10,4 +10,5 @@ export default defineConfig({
     // Use the new Tailwind CSS Vite plugin
     tailwindcss()
   ],
+  base: '/SaaS_Landing_Page2/'
 })

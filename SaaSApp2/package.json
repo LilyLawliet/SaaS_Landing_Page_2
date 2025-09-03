@@ -3,18 +3,22 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://lilylawliet.github.io/SaaS_Landing_Page2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/lilylawliet/SaaS_Landing_Page.git"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "recharts": "^3.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
